@@ -76,6 +76,8 @@ Once your VM is running, connect to it via SSH and go to the /var/www/html/magen
    
 This will download all the components of the vendor folder of Magento 2. These components are required to use this application. It will take a while, and after that, you installation will be completed, and you will be able to acces to your magento 2 installation via your browser.
 
+Then run bin/magento setup:static-content:deploy
+
 **Other Info**
 
     Database Username: root
